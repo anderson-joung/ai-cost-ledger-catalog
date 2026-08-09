@@ -2,5 +2,138 @@
   "schema_version": 1,
   "updated_at": "2026-08-10",
   "currency": "USD",
-  "providers": {}
+  "providers": {
+    "OpenAI / ChatGPT": {
+      "plans": [
+        {
+          "id": "chatgpt-plus-monthly",
+          "name": "ChatGPT Plus — 월간",
+          "amount": 20,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+          "source_name": "OpenAI Help Center",
+          "verified_at": "2026-08-10"
+        }
+      ]
+    },
+    "Anthropic / Claude": {
+      "plans": [
+        {
+          "id": "claude-pro-monthly",
+          "name": "Claude Pro — 월간",
+          "amount": 20,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://support.claude.com/en/articles/11049762-choose-a-claude-plan",
+          "source_name": "Claude Help Center",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "claude-max-5x-monthly",
+          "name": "Claude Max 5x — 월간",
+          "amount": 100,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://support.claude.com/en/articles/11049762-choose-a-claude-plan",
+          "source_name": "Claude Help Center",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "claude-max-20x-monthly",
+          "name": "Claude Max 20x — 월간",
+          "amount": 200,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://support.claude.com/en/articles/11049762-choose-a-claude-plan",
+          "source_name": "Claude Help Center",
+          "verified_at": "2026-08-10"
+        }
+      ]
+    },
+    "Google / Gemini": {
+      "plans": [
+        {
+          "id": "google-ai-plus-monthly-us",
+          "name": "Google AI Plus — 월간 (미국 표시가격)",
+          "amount": 4.99,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "region": "US",
+          "source": "https://one.google.com/intl/en_us/about/google-ai-plans/",
+          "source_name": "Google One",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "google-ai-pro-monthly-us",
+          "name": "Google AI Pro — 월간 (미국 표시가격)",
+          "amount": 19.99,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "region": "US",
+          "source": "https://one.google.com/intl/en_us/about/google-ai-plans/",
+          "source_name": "Google One",
+          "verified_at": "2026-08-10"
+        }
+      ]
+    },
+    "Cursor": {
+      "plans": [
+        {
+          "id": "cursor-pro-monthly",
+          "name": "Cursor Pro — 월간",
+          "amount": 20,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://cursor.com/help/account-and-billing/pricing",
+          "source_name": "Cursor Docs",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "cursor-pro-plus-monthly",
+          "name": "Cursor Pro+ — 월간",
+          "amount": 60,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://cursor.com/help/account-and-billing/pricing",
+          "source_name": "Cursor Docs",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "cursor-ultra-monthly",
+          "name": "Cursor Ultra — 월간",
+          "amount": 200,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://cursor.com/help/account-and-billing/pricing",
+          "source_name": "Cursor Docs",
+          "verified_at": "2026-08-10"
+        }
+      ]
+    },
+    "Perplexity": {
+      "plans": [
+        {
+          "id": "perplexity-pro-annual",
+          "name": "Perplexity Pro — 연간 결제 ($17 × 12)",
+          "amount": 204,
+          "currency": "USD",
+          "billing_period": "annual",
+          "source": "https://www.perplexity.ai/pro",
+          "source_name": "Perplexity",
+          "verified_at": "2026-08-10"
+        },
+        {
+          "id": "perplexity-max-monthly",
+          "name": "Perplexity Max — 월간",
+          "amount": 200,
+          "currency": "USD",
+          "billing_period": "monthly",
+          "source": "https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max",
+          "source_name": "Perplexity Help Center",
+          "verified_at": "2026-08-10"
+        }
+      ]
+    }
+  }
 }
